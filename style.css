@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #EEEDDE;
+}
+:root{
+    --common:#FF7527;
+    --second-common:#203239;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    max-width: 1166px;
+    margin: 0 auto;
+}
+header{
+ padding-top: 50px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 100px;
+}
+header nav ul a{
+    text-decoration: none;
+    color: var(--second-common);
+    font-size: 16px;
+    font-weight: 300;
+}
+header nav ul li{
+    position: relative;
+}
+header nav ul li::after{
+ content: "";
+ background-color: var(--common);
+ position: absolute;
+ width: 0%;
+ height: 3px;
+ bottom: 0;
+ left: 50%;
+ transform: translateX(-50%);
+ border-radius: 20px;
+ transition: all 0.4s ease;
+}
+header nav ul li:hover::after{
+    width: 100%;
+
+}
+/* ===============header-end============= */
+
+/* =================heru-part-start============= */
+#heru{
+ padding-top: 96px;
+ padding-bottom: 120px;
+    
+}
+#heru .heru-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+#heru .heru-container h1{
+    font-size: 56px;
+    font-weight: 600;
+    width:777px ;
+    line-height: 150%;
+    color: var(--second-common);
+    margin-bottom: 24px;
+    margin-top: 67px;
+}
+#heru .heru-container p{
+    font-size: 16px;
+    font-weight: 300;
+    width:544px ;
+    line-height: 30px;
+    color: rgba(32, 50, 57,.55);
+    margin-bottom: 55px;
+}
+#heru .input-container{
+    width: 661px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#heru .input-container .fa-solid{
+ position: absolute;
+ left:20px;
+ top: 50%;
+ transform: translateY(-50%);
+ font-size: 24px;
+}
+#heru .input-container input{
+    width: 78%;
+    padding: 23px 56px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 15px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+#heru .input-container button{
+padding: 23px 41px;
+background-color: #FFFFFF;
+border-radius: 15px;
+border: none;
+font-size: 16px;
+font-weight: 300;
+color: rgba(32, 50, 57,.55);
+cursor: pointer;
+transform: all 0.4s ease;
+}
+#heru .input-container button:active{
+  background-color: aqua;
+  color: green;
+}
+/* =============heru-part-end============== */
+/* ================Tahapan-part-start============= */
+#Tahapan{
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#Tahapan h2{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 150%;
+  color: var(--second-common);
+  width: 533px;
+}
