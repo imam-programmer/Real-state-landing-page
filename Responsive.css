@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width:576px){
+@media (min-width:320px) and (max-width:575px){
 header{
     position: relative;
     z-index: 999;
@@ -48,6 +48,7 @@ header ul li::after{
     width: 80%;
     display: block;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 #heru .heru-container h1 {
     font-size: 28px;
@@ -238,6 +239,243 @@ footer{
 footer .footer-container ul {
     gap: 15px;
     font-size: 16px;
+}
+ /* ================footer-end======================= */
+}
+@media (min-width:576px) and (max-width:767px){
+header{
+    position: relative;
+    z-index: 999;
+    padding: 10px 20px 0 10px;
+
+}
+header nav label{
+    display: block;
+    cursor: pointer;
+}
+header nav ul{
+    position: absolute;
+    flex-direction: column;
+    padding-top: 20px;
+    height: 250px;
+    width: 100%;
+    background-color: #062430e3;
+    top: 50px;
+    left: -100%;
+    gap: 20px;
+    transition: 0.4s;
+   
+    
+}
+header ul li::after{
+    display: none;
+}
+ header ul li a{
+    color:white;
+    font-size: 14px;
+}
+#click:checked ~ ul{
+    left: 0;
+}
+ /*===============header-end============  */
+ /* =======-================heru-start================= */
+ #heru{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+ }
+
+#heru img {
+    width: 100%;
+  
+}
+#heru .heru-container h1 {
+    font-size: 25px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 0;
+}
+#heru .heru-container p {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#heru .input-container {
+    width: 100%;
+   
+}
+#heru .input-container .fa-solid {
+    font-size: 18px;
+    left: 10px;
+}
+#heru .input-container input {
+    width: 75%;
+    padding: 15px 40px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+#heru .input-container button {
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+    /* =======-================heru-end================= */
+    /* ====================Tahapan-start================ */
+#Tahapan {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+#Tahapan h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#Tahapan .tahapan-card-container {
+    flex-wrap: wrap;
+}
+#Tahapan .card {
+    width: 47%;
+    margin-bottom: 20px;
+}
+#Tahapan .card span {
+    font-size: 14px;
+
+}
+#Tahapan .card p {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.Tahapan-spa-card{
+    margin-top: 60px;
+}
+    /* ====================Tahapan-end================ */
+    /* ==================Favorit-start================= */
+#Favorit {
+    padding: 20px;
+}
+#Favorit h5 {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+#Favorit h2 {
+    font-size: 20px;
+    margin-bottom: -40px;
+    width: 100%;
+
+}
+#Favorit .Favorit-container {
+    flex-direction: column;
+}
+#Favorit .Favorit-container .Favorit-text-part p {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+  
+}
+#Favorit .Favorit-container .Favorit-text-part button {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+#Favorit .Favorit-container .Favorit-text-part .btn-con{
+    display: flex;
+    justify-content: center;
+}
+#Favorit .Favorit-container .Favorit-image-part img{
+    width: 60%;
+     display: block;
+  margin: 0 auto;
+}
+#Favorit .Favorit-container .Favorit-image-part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#Favorit .Favorit-container .Favorit-image-part .Favorit-image-2 {
+    position: static;
+    margin-top: 100px;
+    margin-left: -100px;
+
+
+}
+#Favorit .Favorit-container .Favorit-text-part {
+    margin-top: 20px;
+}
+#Favorit .Favorit-container .Favorit-text-part .Favorit-text-part-h3 {
+    margin-bottom: 10px;
+}
+/* ==================Favorit-end================= */
+/* ====================Berbagai-start================ */
+#Berbagai {
+    padding: 20px;
+}
+#Berbagai h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#Berbagai h5 {
+    font-size: 14px;
+}
+#Berbagai .Berbagai-container {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+#Berbagai .Berbagai-container img{
+    width: 100%;
+}
+#Berbagai .card h4 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#Berbagai .card {
+    width: 47%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+#Berbagai .card p {
+    font-size: 14px;
+}
+/* ====================Berbagai-end================ */
+/* =================Penghargaan-start================== */
+#Penghargaan h2 {
+    font-size: 20px;
+    text-align: center;
+}
+#Penghargaan {
+    padding: 20px;
+}
+#Penghargaan .Penghargaan-container {
+    flex-direction: column;
+    margin-top: -60px;
+}
+#Penghargaan .Penghargaan-container .card-part {
+    margin-bottom: 30px;
+}
+#Penghargaan .Penghargaan-container .card {
+    width: 100%;
+}
+#Penghargaan .Penghargaan-container .img-part img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+ /* =================Penghargaan-start================== */
+ /* ================footer-start======================= */
+footer{
+    padding: 10px 20px 10px 20px;
+  
+}
+footer .footer-container ul {
+    gap: 25px;
+    font-size: 18px;
 }
  /* ================footer-end======================= */
 }
