@@ -242,6 +242,7 @@ footer .footer-container ul {
 }
  /* ================footer-end======================= */
 }
+/* =================small-device responsive-start======================= */
 @media (min-width:576px) and (max-width:767px){
 header{
     position: relative;
@@ -489,7 +490,8 @@ footer .footer-container ul {
     margin-top: 85px;
 }
 }
-
+/* =================small-device responsive-end======================= */
+/* ===================medium device responsive start======================== */
 @media (min-width:768px) and (max-width:991px){
 header{
     padding: 20px 20px 0 20px;
@@ -672,3 +674,110 @@ footer .footer-container ul {
     width: 100%;
 }
 }
+/* ===================medium device responsive end======================== */
+
+/* ====================large device-responsive-start=========================== */
+@media (min-width:992px) and (max-width:1199px){
+header{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+ /*===============header-end============  */
+ /* =======-================heru-start================= */
+ #heru{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+#heru img {
+    width: 100%;
+}
+#heru .heru-container h1 {
+    font-size: 46px;
+    width: 690px;
+}
+/* =======-================heru-end================= */
+/* ====================Tahapan-start================ */
+#Tahapan {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+#Tahapan .card {
+    width: 30%;
+    margin-bottom: 20px;
+}
+#Tahapan .card p {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.Tahapan-spa-card{
+    margin-top: 60px;
+}
+/* ====================Tahapan-end================ */
+/* ==================Favorit-start================= */
+#Favorit{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 110px;
+}
+#Favorit h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#Favorit .Favorit-container .Favorit-text-part{
+    margin-left: 70px;
+}
+#Favorit .Favorit-container .Favorit-text-part button {
+    padding: 13px 30px;
+}
+#Favorit .Favorit-container .Favorit-image-part img{
+    width: 65%;
+}
+#Favorit .Favorit-container .Favorit-image-part .Favorit-image-2 {
+   left: 35%;
+}
+/* ==================Favorit-end================= */
+/* ====================Berbagai-start================ */
+#Berbagai {
+    padding: 40px 20px 40px 20px;
+}
+#Berbagai h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#Berbagai .Berbagai-container img{
+    width: 100%;
+}
+#Berbagai .card h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#Berbagai .card {
+    width: 30%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+/* ====================Berbagai-end================ */
+/* =================Penghargaan-start================== */
+#Penghargaan h2 {
+    font-size: 30px;
+}
+#Penghargaan {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#Penghargaan .Penghargaan-container .img-part img {
+    margin-left: 30px;
+}
+ /* =================Penghargaan-start================== */
+ /* ================footer-start======================= */
+footer{
+    padding: 20px 20px;
+}
+/* ================footer-end======================= */
+}
+/* ====================large device-responsive-end=========================== */
