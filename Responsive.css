@@ -479,3 +479,196 @@ footer .footer-container ul {
 }
  /* ================footer-end======================= */
 }
+@media (min-width:576px) and (max-width:579px){
+    .Tahapan-spa-card{
+    margin-top: 85px;
+}
+}
+@media (min-width:659px) and (max-width:682px){
+    .Tahapan-spa-card{
+    margin-top: 85px;
+}
+}
+
+@media (min-width:768px) and (max-width:991px){
+header{
+    padding: 20px 20px 0 20px;
+}
+header nav ul {
+    gap: 50px;
+}
+ /*===============header-end============  */
+ /* =======-================heru-start================= */
+ #heru{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+ }
+
+#heru img {
+    width: 100%;
+}
+#heru .heru-container h1 {
+    font-size: 36px;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 0;
+}
+#heru .heru-container p {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#heru .input-container {
+    width: 100%;
+   
+}
+#heru .input-container .fa-solid {
+    left: 15px;
+}
+#heru .input-container button {
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+    /* =======-================heru-end================= */
+    /* ====================Tahapan-start================ */
+#Tahapan {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+#Tahapan h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+#Tahapan .tahapan-card-container {
+    flex-wrap: wrap;
+}
+#Tahapan .card {
+    width: 47%;
+    margin-bottom: 20px;
+}
+#Tahapan .card p {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.Tahapan-spa-card{
+    margin-top: 60px;
+}
+    /* ====================Tahapan-end================ */
+    /* ==================Favorit-start================= */
+#Favorit {
+    padding: 50px 20px 50px 20px;
+}
+#Favorit h2 {
+    font-size: 30px;
+    margin-bottom: -90px;
+    width: 100%;
+}
+#Favorit .Favorit-container .Favorit-text-part p {
+    width: 100%;
+  margin-bottom: 25px;
+}
+#Favorit .Favorit-container .Favorit-text-part button {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+#Favorit .Favorit-container .Favorit-image-part img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+#Favorit .Favorit-container .Favorit-image-part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#Favorit .Favorit-container .Favorit-image-part .Favorit-image-2 {
+    position: static;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+#Favorit .Favorit-container .Favorit-text-part {
+    margin-top: 20px;
+}
+#Favorit .Favorit-container .Favorit-text-part .Favorit-text-part-h3 {
+    margin-bottom: 10px;
+    margin-top: 125px;
+}
+/* ==================Favorit-end================= */
+/* ====================Berbagai-start================ */
+#Berbagai {
+    padding: 40px 20px 40px 20px;
+}
+#Berbagai h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#Berbagai .Berbagai-container {
+    flex-wrap: wrap;
+}
+#Berbagai .Berbagai-container img{
+    width: 100%;
+}
+#Berbagai .card h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#Berbagai .card {
+    width: 47%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+/* ====================Berbagai-end================ */
+/* =================Penghargaan-start================== */
+#Penghargaan h2 {
+    font-size: 30px;
+}
+#Penghargaan {
+    padding: 20px;
+}
+#Penghargaan .Penghargaan-container .card {
+    width: 220px;
+}
+#Penghargaan .Penghargaan-container .img-part img {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+ /* =================Penghargaan-start================== */
+ /* ================footer-start======================= */
+footer{
+    padding: 20px 20px;
+  
+}
+footer .footer-container ul {
+    gap: 40px;
+}
+ /* ================footer-end======================= */
+}
+@media (min-width:779px) and (max-width:840px) {
+    #Favorit .Favorit-container .Favorit-text-part .Favorit-text-part-h3 {
+    margin-bottom: 10px;
+    margin-top: 84px;
+}
+#Favorit h2 {
+    font-size: 30px;
+    margin-bottom: -46px;
+    width: 100%;
+}
+}
+@media (min-width:841px) and (max-width:991px) {
+    #Favorit .Favorit-container .Favorit-text-part .Favorit-text-part-h3 {
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+#Favorit h2 {
+    font-size: 30px;
+    margin-bottom: -30px;
+    width: 100%;
+}
+}
