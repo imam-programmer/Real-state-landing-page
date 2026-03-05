@@ -28,7 +28,6 @@ header nav{
 }
 header nav ul{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     list-style: none;
     gap: 100px;
@@ -57,6 +56,13 @@ header nav ul li::after{
 header nav ul li:hover::after{
     width: 100%;
 
+}
+header #click{
+    display: none;
+}
+header label{
+    font-size: 20px;
+    display: none;
 }
 /* ===============header-end============= */
 
@@ -111,6 +117,10 @@ header nav ul li:hover::after{
     border: none;
     background-color: #fff;
     outline: none;
+   
+}
+input::placeholder{
+    color: rgba(32, 50, 57,.55);
 }
 #heru .input-container button{
 padding: 23px 41px;
@@ -122,6 +132,7 @@ font-weight: 300;
 color: rgba(32, 50, 57,.55);
 cursor: pointer;
 transform: all 0.4s ease;
+overflow: hidden;
 }
 #heru .input-container button:active{
   background-color: aqua;
@@ -194,6 +205,9 @@ font-weight: 600;
 #Tahapan .tahapan-card-container{
     display: flex;
     justify-content: space-between;
+}
+.Tahapan-spa-card{
+    margin-top: 80px;
 }
 /* =================Tahapan-part-end===================== */
 /* ==================Favorit-part-start=============== */
