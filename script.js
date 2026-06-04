@@ -1,3 +1,8 @@
+
+let mm=gsap.matchMedia()
+mm.add("(min-width:1000px)",()=>{
+
+
 let navanimation=gsap.timeline();
 navanimation.from("#nav-img",{
     y:-30,
@@ -107,7 +112,7 @@ Berbagaianimation.from("#Berbagai h2",{
     duration:1.1
 })
 Berbagaianimation.from("#Berbagai img,#Berbagai  h4,#Berbagai  p",{
-    x:500,
+    y:500,
     duration:1,
     opacity:0,
     stagger:0.5
@@ -150,28 +155,152 @@ Penghargaan.from("footer img",{
     duration:1,
 },)
 Penghargaan.from("footer li",{
-    x:100,
+    y:10,
     opacity:0,
     duration:0.7,
     stagger:-0.3
 })
 
 
+})
 
 
+mm.add("(max-width:575px)",()=>{
+let navanimation=gsap.timeline();
+navanimation.from("#nav-img",{
+    y:-30,
+    opacity:0,
+    duration:0.4,
+})
 
+navanimation.from("#heru-im",{
+    y:100,
+    opacity:0,
+    duration:1
+})
+navanimation.from("#heru .heru-container .heru-text-part h1",{
+    opacity:0,
+    y:-100,
+   duration:1
+})
 
+let Tahapananimation=gsap.timeline({
+    scrollTrigger:{
+        trigger:"#Tahapan",
+        scroller:"body",
+        start:"top 60%",
+        end:"top 0",
+   
+        
+    }
+})
+Tahapananimation.from("#Tahapan h2",{
+    y:100,
+    duration:1,
+    opacity:0,
+})
+Tahapananimation.from("#Tahapan .card",{
+    opacity:0,
+    y:-100,
+    duration:1,
+    stagger:0.5,  
+})
 
+let Favoritanimation=gsap.timeline({
+    scrollTrigger:{      
+        trigger:"#Favorit",
+        scroller:"body",
+        start:"top 60%",
+    }
+})
+Favoritanimation.from("#Favorit h5",{
+    y:-100,
+    opacity:0,
+    duration:1
+})
+Favoritanimation.from("#Favorit #id",{
+    y:-100,
+    opacity:0,
+    duration:1
+})
+Favoritanimation.from(".Favorit-image-part",{
+    x:-20,
+    opacity:0,
+    duration:1
+},"-=1")
+Favoritanimation.from(".Favorit-text-part",{
+    x:20,
+    opacity:0,
+    duration:1
+},"-=1")
 
+let Berbagaianimation=gsap.timeline({
+      scrollTrigger:{      
+        trigger:"#Berbagai",
+        scroller:"body",
+        start:"top 60%",
+    }
+})
 
+Berbagaianimation.from("#Berbagai h2",{
+    x:-100,
+    opacity:0,
+    duration:1.1
+})
+Berbagaianimation.from("#Berbagai h5",{
 
+    opacity:0,
+    duration:1
+})
+Berbagaianimation.from("#Berbagai img,#Berbagai  h4,#Berbagai  p",{
+    y:500,
+    duration:1,
+    opacity:0,
+    stagger:0.5
+})
+let Penghargaan=gsap.timeline({
+       scrollTrigger:{      
+        trigger:"#Penghargaan",
+        scroller:"body",
+        start:"top 60%",
+    }
+});
+Penghargaan.from("#Penghargaan #P-h2",{
+    y:-100,
+    opacity:0,
+    duration:0.7
+})
+Penghargaan.from("#Penghargaan .card-part .card",{
+    y:100,
+    opacity:0,
+    duration:0.7,
+    stagger:-0.3
+})
+Penghargaan.from("#Penghargaan .img-part h2",{
+    y:100,
+    opacity:0,
+    duration:0.7,
+    stagger:-0.3
+},"-=1")
+Penghargaan.from("#Penghargaan .img-part img",{
+    y:100,
+    opacity:0,
+    duration:0.7,
+    stagger:-0.3
+},)
+Penghargaan.from("footer img",{
+    x:-200,
+    opacity:0,
+    duration:1,
+},)
+Penghargaan.from("footer li",{
+    y:10,
+    opacity:0,
+    duration:0.7,
+    stagger:-0.3
+})
 
-
-
-
-
-
-
+})
 
 
 
